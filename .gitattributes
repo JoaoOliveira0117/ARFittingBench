@@ -1,0 +1,48 @@
+# Normalize line endings so Windows and macOS contributors produce identical files.
+* text=auto
+
+# Code
+*.cs        text diff=csharp
+*.shader    text
+*.hlsl      text
+*.cginc     text
+*.json      text
+*.md        text
+*.inputactions text
+
+# Unity YAML (Force Text serialization). Keep LF everywhere to avoid noisy diffs.
+*.unity     text eol=lf linguist-generated
+*.prefab    text eol=lf linguist-generated
+*.asset     text eol=lf linguist-generated
+*.mat       text eol=lf linguist-generated
+*.meta      text eol=lf linguist-generated
+*.anim      text eol=lf linguist-generated
+*.controller text eol=lf linguist-generated
+*.physicMaterial text eol=lf linguist-generated
+*.lighting  text eol=lf linguist-generated
+*.wlt       text eol=lf linguist-generated
+
+# Binaries
+*.png  binary
+*.jpg  binary
+*.jpeg binary
+*.psd  binary
+*.tga  binary
+*.tif  binary
+*.exr  binary
+*.hdr  binary
+*.fbx  binary
+*.obj  binary
+*.blend binary
+*.ttf  binary
+*.otf  binary
+*.wav  binary
+*.mp3  binary
+*.ogg  binary
+*.mp4  binary
+*.dll  binary
+*.so   binary
+*.a    binary
+*.aar  binary
+*.jar  binary
+*.bytes binary
