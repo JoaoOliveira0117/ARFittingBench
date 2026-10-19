@@ -135,7 +135,7 @@ O `--childModules` também instala o **OpenJDK** e o **Android SDK & NDK Tools**
 ## Abrindo o projeto
 
 ```bash
-git clone https://github.com/<seu-usuario>/ARFittingBench.git
+git clone https://github.com/JoaoOliveira0117/ARFittingBench.git
 ```
 
 > **Windows:** clone num caminho curto, **sem espaços nem acentos**, por exemplo `C:\dev\ARFittingBench`. Caminhos como `C:\Users\João\Área de Trabalho\...` costumam quebrar o build Android (Gradle).

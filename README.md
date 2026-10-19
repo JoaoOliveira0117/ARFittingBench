@@ -137,7 +137,7 @@ unity install-modules --editor-version 6000.4.0f1 --module android ios --childMo
 ## Opening the project
 
 ```bash
-git clone https://github.com/<your-user>/ARFittingBench.git
+git clone https://github.com/JoaoOliveira0117/ARFittingBench.git
 ```
 
 > **Windows:** clone to a short path **without spaces or accents**, for example `C:\dev\ARFittingBench`. Paths like `C:\Users\João\Área de Trabalho\...` often break the Android build (Gradle).
